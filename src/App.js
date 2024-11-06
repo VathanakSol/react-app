@@ -8,7 +8,7 @@ function App() {
         alt="Deployment Success"
         className="w-1/4 h-auto rounded-2xl"  
       />
-    </div>
+    </div
   );
 }
 
