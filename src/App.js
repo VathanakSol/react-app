@@ -1,15 +1,14 @@
-import './App.css';
+import React from "react";
+import Flow from "./Flow";
 
-function App() {
+function Home() {
   return (
-    <div className="app-container w-full h-screen flex justify-center items-center">
-      <img 
-        src="deploy.jpg"  
-        alt="Deployment Success"
-        className="w-1/4 h-auto rounded-2xl"  
-      />
+    <div>
+      <div className="h-screen w-full flex justify-center items-center">
+        <Flow />
+      </div>
     </div>
   );
 }
 
-export default App;
+export default Home;
